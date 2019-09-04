@@ -1144,7 +1144,7 @@ Board.prototype.toggleButtons = function() {
 
 
     document.getElementById("startButtonBidirectional").onclick = () => {
-      document.getElementById("startButtonStart").innerHTML = '<button id="actualStartButton" class="btn btn-default navbar-btn" type="button">Visualize Bidirectional Swarm!</button>'
+      document.getElementById("startButtonStart").innerHTML = '<button id="actualStartButton" class="btn btn-default navbar-btn" type="button" onclick="start()">Visualize Bidirectional Swarm!</button>'
       this.currentAlgorithm = "bidirectional";
       this.currentHeuristic = "manhattanDistance";
       if (this.numberOfObjects) {
