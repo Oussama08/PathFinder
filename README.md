@@ -1,6 +1,6 @@
 # PathFinder
 This Project is about Pathfinding Visualizer Using Famous Algorithms , such as A* and Dijkstra's . I built this application because I was interested by these kind of algorithms , and I wanted to visualize them in action , so i choose Pathfinding Ones.
-You Can see it Here : https://github.com/Oussama08/PathFinder/ , using Google chrome .
+You Can see it Here : https://oussama08.github.io/PathFinder/ , using Google chrome .
 
 # Some Used Algorithms :
 
