@@ -12,7 +12,7 @@ Greedy Best-first Search (weighted): a faster, more heuristic-heavy version of A
 
 Swarm Algorithm (weighted): a mixture of Dijkstra's Algorithm and A*; does not guarantee the shortest-path
 
-![Capture](https://user-images.githubusercontent.com/44874674/65081362-6211c200-d99b-11e9-9fb7-bc151cead78a.JPG)
+
 
 
 
