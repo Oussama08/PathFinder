@@ -30,7 +30,7 @@ function launchAnimations(board, success, type, object, algorithm, heuristic) {
             launchAnimations(board, newSuccess, type);
             return;
           } else {
-            console.log("ailure.");
+            console.log("Failure.");
             board.reset();
             board.toggleButtons();
             return;
