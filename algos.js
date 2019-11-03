@@ -4,7 +4,7 @@ const unweightedSearchAlgorithm = require("../pathfindingAlgorithms/unweightedSe
 
 function launchAnimations(board, success, type, object, algorithm, heuristic) {
   let nodes = object ? board.objectNodesToAnimate.slice(0) : board.nodesToAnimate.slice(0);
-  let speed = board.speed === "fast" ?
+  let speed = board.speed === "ast" ?
     0 : board.speed === "average" ?
       100 : 500;
   let shortestNodes;
